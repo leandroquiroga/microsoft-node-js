@@ -4,24 +4,24 @@
 Node.js proporciona un gran conjunto de API integradas que ayudan a crear varios tipos de aplicaciones, como de línea de comandos, web, etc. También ofrece funciones de prueba y depuración, así como un amplio ecosistema de paquetes de terceros que se pueden agregar fácilmente a la aplicación.
 
 ## Indice: 
-#### [`Modulo 1: Introducción a Node.js `](#modulo-1-introducción-a-node.js)
+#### [`Modulo 1: Introducción a Node.js`](#modulo-1-introducción-a-node.js)
 Obtenga información sobre Node.js: qué es, cómo funciona y cuándo usarlo.
 
 
-#### [`Modulo 2: Creación de un proyecto de Node.js y trabajo con dependencias`](#modulo-2-creacion-de-un-proyecto-de-node.js-y-trabajo-con-dependencias)
+#### [`Modulo 2: Creación de un proyecto de Node.js y trabajo con dependencias`](#modulo-2-creacion-de-un-proyecto-de-Node.js-y-trabajo-con-dependencias)
 Use las dependencias del registro npm para desarrollar más rápido aplicaciones de Node.js. Obtenga información sobre cómo administrar las dependencias del proyecto.
 
-#### [`Modulo 3: Depuración interactiva de aplicaciones de Node.js con el depurador integrado y el de Visual Studio Code`](#modulo-3-depuración-interactiva-de-aplicacion-de-node.js-con-el-depurador-integrado-y-el-de-visual-studio-code)
+#### [`Modulo 3: Depuración interactiva de aplicaciones de Node.js con el depurador integrado y el de Visual Studio Code`](#modulo-3-depuración-interactiva-de-aplicacion-de-Node.js-con-el-depurador-integrado-y-el-de-Visual-Studio-Code)
 Obtenga información sobre cómo depurar de forma eficaz la aplicación de Node.js con Visual Studio Code para corregir los errores rápidamente.
 
-#### [`Modulo 4:Trabajo con archivos y directorios en una aplicación Node.js`](#modulo-4-trabajo-con-archivos-y-directorios-en-una-aplicación-node.js)
+#### [`Modulo 4:Trabajo con archivos y directorios en una aplicación Node.js`](#modulo-4-trabajo-con-archivos-y-directorios-en-una-aplicación-Node.js)
 Crearemos una aplicación que manipule archivos y directorios con Node.js.
 
 
-#### [`Modulo 5: Creación de una API web con Node.js y Express`](#modulo-5-creacion-de-una-api-web-con-node.js-y-express)
+#### [`Modulo 5: Creación de una API web con Node.js y Express`](#modulo-5-creacion-de-una-api-web-con-Node.js-y-Express)
 Usaremos Express para Node.js para crear API RESTful. Crearemos y configuraremos un middleware para agregar cosas como funciones de registro y de autenticación/autorización.
 
-#### [`Modulo 6: Introducción a la administración de rutas en Node.js con JavaScript`](#modulo-6-introducción-a-la-administración-de-rutas-en-node.js-con-javascript)
+#### [`Modulo 6: Introducción a la administración de rutas en Node.js con JavaScript`](#modulo-6-introducción-a-la-administración-de-rutas-en-Node.js-con-Javascript)
 Aprenda a configurar una API de Node.js con varias rutas y a controlar las solicitudes HTTP entrantes mediante JavaScript.
 
 <br>
