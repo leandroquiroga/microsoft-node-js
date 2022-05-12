@@ -58,7 +58,7 @@ Node.js es un contenedor en torno a un motor de JavaScript denominado V8 que ali
 Aunque nunca haya usado JavaScript como lenguaje de programación principal, podría ser la opción adecuada para escribir aplicaciones sólidas y modulares. JavaScript también ofrece algunas ventajas exclusivas. Por ejemplo, como los exploradores usan JavaScript, puede emplear Node.js para compartir lógica como reglas de validación de formularios entre el explorador y el servidor.
 JavaScript se ha vuelto más relevante con el auge de las aplicaciones de página única y admite el formato de intercambio de datos de notación de objetos JavaScript (JSON) de uso generalizado. Muchas tecnologías de base de datos NoSQL como [CouchDB](https://couchdb.apache.org/) y [MongoDB](https://www.mongodb.com/es) también usan JavaScript y JSON como formato para consultas y esquemas. Node.js usa idénticos lenguaje y tecnologías que muchos servicios y marcos modernos.
 Con Node.js puede compilar los siguientes tipos de aplicaciones:
-´
+
 *	Servidores web HTTP
 *	Microservicios o back-end de API sin servidor
 *	Controladores para acceso a bases de datos y consulta
@@ -68,6 +68,8 @@ Con Node.js puede compilar los siguientes tipos de aplicaciones:
 *	Complementos para aplicaciones de escritorio
 *	Scripts de shell para manipulación de archivos o acceso a la red
 *	Modelos y bibliotecas de aprendizaje automático
+
+![node](https://user-images.githubusercontent.com/80013958/168112448-e68fd674-4fb3-448c-b948-49fef0e79ccf.png)
 
 El entorno de Node.js también ofrece un registro [npm](https://www.npmjs.com/) que puede usar para compartir una biblioteca de Node.js propia.
 Node.js es rápido, ofrece un alto rendimiento y puede controlar aplicaciones en tiempo real y flujos de datos intensivos. Un caso de uso de ejemplo podría ser la compilación de un dispositivo que puede enviar comandos de control al escritorio permanente. Puede instalar Node.js en el panel de IoT o usar un dispositivo con Node.js preinstalado. Luego se escribiría la lógica de aplicación en JavaScript y se implementaría en el dispositivo.
@@ -97,7 +99,7 @@ El nombre bucle de eventos describe el uso del mecanismo de "ocupación en esper
 ## Arquitectura de Node.js
 Node.js usa una arquitectura controlada por eventos en la que un bucle de eventos controla la orquestación y un grupo de trabajo bloquea las tareas. El bucle de eventos permite a Node.js controlar las operaciones simultáneas. En el siguiente diagrama se muestra cómo funciona un bucle de eventos, en general:
 
-(*Insertar imagen de la arquitectura de node*)
+![Arquitectura de Node.js](https://docs.microsoft.com/es-mx/learn/advocates/intro-to-nodejs/media/event-loop.svg)
 
 Las fases principales de un bucle de eventos son: 
 * Los **temporizadores**: procesan las devoluciones de la llamas programadas por `setTimeout()` y `setInterval()`.
@@ -116,7 +118,7 @@ JavaScript puede generar los mismos resultados de rendimiento que lenguajes de b
 ## Programación asincrónica
 Para admitir el eficaz modelo de programación controlado por eventos, Node.js tiene un conjunto integrado de API de E/S sin bloqueo para controlar tareas comunes como la manipulación del sistema de archivos o de bases de datos. La biblioteca [libuv](https://libuv.org/) proporciona estas API. Al realizar una solicitud de Node.js para leer el contenido de un archivo desde un disco, Node.js no se bloquea a la espera de que el disco y los descriptores del archivo estén listos, sino que la interfaz de E/S sin bloqueo avisa a Node.js cuando el archivo está listo. Esta E/S sin bloqueo funciona de la misma manera cuando el explorador notifica al código que se ha desencadenado un evento de mouse o teclado o cuando se ha recibido una respuesta XMLHttpRequest (XHR) desde un punto de conexión remoto.
 
-(*Insertar imagen de la programacion asincronica*);
+![Programacion Asincronica](https://docs.microsoft.com/es-mx/learn/advocates/intro-to-nodejs/media/architecture.svg)
 
 ## Instalación y uso de Node.js
 Hay muchas formas de instalar Node.js. Estas son algunas de las opciones más comunes:
@@ -129,7 +131,8 @@ Vamos a echar un vistazo más detallado a los pasos necesarios para descargar e 
 
 ## Instalación mediante un archivo ejecutable
 
-(*Insertar imagen de la descarga de node.js*);
+![install-page](https://user-images.githubusercontent.com/80013958/168113442-c5d5e97f-d4cc-4f35-943f-431fe33e24c6.png)
+
 
 Observe los distintos instaladores disponibles para diferentes sistemas operativos como Windows, macOS y Linux. También puede descargar dos versiones de código fuente diferentes:
 
