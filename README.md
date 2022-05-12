@@ -4,7 +4,7 @@
 Node.js proporciona un gran conjunto de API integradas que ayudan a crear varios tipos de aplicaciones, como de línea de comandos, web, etc. También ofrece funciones de prueba y depuración, así como un amplio ecosistema de paquetes de terceros que se pueden agregar fácilmente a la aplicación.
 
 ## Indice: 
-#### [`Modulo 1: Introduccion a Node.js `](#modulo-1-introducción-a-node.js)
+#### [`Modulo 1: Introducción a Node.js `](#modulo-1-introducción-a-node.js)
 Obtenga información sobre Node.js: qué es, cómo funciona y cuándo usarlo.
 
 
@@ -26,7 +26,7 @@ Aprenda a configurar una API de Node.js con varias rutas y a controlar las solic
 
 <br>
 
-# Modulo 1: Introduccion a Node.js 
+# Modulo 1: Introducción a Node.js 
 
 ## Indice:
 #### [`Unidad 0: Introdución`](#unidad-0-introducción)
